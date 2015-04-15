@@ -1,0 +1,26 @@
+{
+  "languages": {
+    "default": "ru",
+    "available": [
+      "ru",
+      "en"
+    ]
+  },
+  "variables": {
+    "ru": {
+      "aliasPattern": "{ALIAS}"
+    },
+    "en": {
+      "aliasPattern": "en_{ALIAS}"
+    }
+  },
+  "constants": {
+    "case1": {
+      "ru": "1",
+      "en": "2"
+    },
+    "case2": {
+      "ru": "5"
+    }
+  }
+}
