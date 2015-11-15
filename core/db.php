@@ -20,7 +20,8 @@ class BitrixAdapterDb
     $ret = array();
     while ($row = $CDBResult->Fetch())
     {
-      $ret[] = $row;
+      isset($row['ID']) ? $ref =& $ret[$row['ID']] : $ref =& $ret[];
+      $ref = $row;
     }
     return $ret;
   }
